@@ -1,0 +1,33 @@
+Accord RentRoll RoomKey Importer
+Date: 2/10/2017
+Time: 2:54PM IST
+Import File: ./2017-02-10/roomkey.csv
+
+=======
+SUMMARY
+=======
+                                Total       Total                 
+Data Type                       Possible    Imported    Issues    
+------------------------------  ----------  ----------  ----------
+Rentable Types                  26          26          0         
+Transactants                    402         402         9         
+Rentables                       402         267         0         
+Rental Agreements               402         267         0         
+
+===============
+DETAILED REPORT
+===============
+Input                                                                                                                                                                                       
+Line    Description                                                                                                                                                                         
+------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+129     Warning: There is at least one other person with the name "Carrieri, LUCY" who also has no unique identifiers such as cell phone number or email.                                   
+164     Warning: There is at least one other person with the name "College  of Construction, OK" who also has no unique identifiers such as cell phone number or email.                     
+166     Warning: There is at least one other person with the name "College  of Construction, OK" who also has no unique identifiers such as cell phone number or email.                     
+169     Warning: There is at least one other person with the name "College  of Construction, OK" who also has no unique identifiers such as cell phone number or email.                     
+173     Warning: There is at least one other person with the name "College  of Construction, OK" who also has no unique identifiers such as cell phone number or email.                     
+186     Warning: There is at least one other person with the name "Coury, Joseph" who also has no unique identifiers such as cell phone number or email.                                    
+245     Warning: There is at least one other person with the name "Duplex, FAA" who also has no unique identifiers such as cell phone number or email.                                      
+497     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique identifiers such as cell phone number or email.                                     
+499     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique identifiers such as cell phone number or email.                                     
+
+
