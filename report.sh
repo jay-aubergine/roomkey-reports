@@ -1,8 +1,3 @@
-
-OCCUPANCY_DIR="occupancy"
-OCCUPANCY_GUEST_DIR="occupancy_guest"
-
-# continue to rentroll . . .
 RRBIN="${GOPATH}/src/rentroll/tmp/rentroll"
 
 if [ ! -d ${RRBIN} ]; then
@@ -14,20 +9,29 @@ ROOMKEYLOAD="${RRBIN}/importers/roomkey/roomkeyload"
 CSVLOAD="${RRBIN}/rrloadcsv"
 BUD=RKEY
 
+# create new database, drop it if already exists
+${RRBIN}/rrnewdb
+
+# load business information first
 ${CSVLOAD} -b ./business.csv >./business.txt 2>&1
 
-for f in */; do
+# dirs for different reports
+OCCUPANCY_DIR="occupancy"
+OCCUPANCY_GUEST_DIR="occupancy_guest"
 
-    OCCUPANCY_DIR_PATH="./${f}${OCCUPANCY_DIR}/"
-    OCCUPANCY_GUEST_DIR_PATH="./${f}${OCCUPANCY_GUEST_DIR}/"
+# generate reports for each dir which has no `report.txt` file
+for dir in $(find . -maxdepth 1 -type d -name "[0-9][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]"); do
 
-    ROOMKEY_CSV="./${f}roomkey.csv"
-    GUEST_CSV="./${f}guest.csv"
+    OCCUPANCY_DIR_PATH="${dir}/${OCCUPANCY_DIR}/"
+    OCCUPANCY_GUEST_DIR_PATH="${dir}/${OCCUPANCY_GUEST_DIR}/"
+
+    ROOMKEY_CSV="${dir}/roomkey.csv"
+    GUEST_CSV="${dir}/guest.csv"
 
     # first do for occupancy report only without guest info
-    REPORT_PATH="./${OCCUPANCY_DIR_PATH}report.txt"
+    REPORT_PATH="${OCCUPANCY_DIR_PATH}report.txt"
     if [ ! -f ${REPORT_PATH} ]; then
-        LOGFILE="./${OCCUPANCY_DIR_PATH}log"
+        LOGFILE="${OCCUPANCY_DIR_PATH}log"
         echo -n "Date/Time:    " >>${LOGFILE}
         date >> ${LOGFILE}
         echo "\nGenerating roomkey report for ${ROOMKEY_CSV} ..." | tee -a ${LOGFILE}
