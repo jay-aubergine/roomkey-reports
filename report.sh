@@ -45,7 +45,7 @@ for dir in $(find . -maxdepth 1 -type d -name "[0-9][0-9][0-9][0-9]-[0-1][0-9]-[
         LOGFILE="./${OCCUPANCY_GUEST_DIR_PATH}log"
         echo -n "Date/Time:    " >>${LOGFILE}
         date >> ${LOGFILE}
-        echo "\nGenerating roomkey report for ${ROOMKEY_CSV} ..." | tee -a ${LOGFILE}
+        echo "\nGenerating roomkey report for ${ROOMKEY_CSV} and ${GUEST_CSV}..." | tee -a ${LOGFILE}
         ${ROOMKEYLOAD} -csv ${ROOMKEY_CSV} -guestinfo ${GUEST_CSV} -bud ${BUD} >${REPORT_PATH} 2>&1
         echo "Report has been generated for ${ROOMKEY_CSV} with guest csv ${GUEST_CSV} at path ${REPORT_PATH}" | tee -a ${LOGFILE}
     fi
