@@ -1,0 +1,71 @@
+Accord RentRoll RoomKey Importer
+Date: 3/15/2017
+Time: 12:03PM IST
+Import File: ./2017-03-15/roomkey.csv
+Guest Export File: ./2017-03-15/guest.csv
+
+Summary
+                                Total       Total                 
+Data Type                       Possible    Imported    Issues    
+------------------------------  ----------  ----------  ----------
+Rentable Types                  29          29          0         
+Transactants                    499         488         25        
+Rentables                       499         303         0         
+Rental Agreements               499         303         0         
+
+DETAILED REPORT
+Input                                                                                                       
+Line    Description                                                                                         
+------  ----------------------------------------------------------------------------------------------------
+42      Warning: There is at least one other person with the name "Anderson, Daniel" who also has no unique 
+        identifiers such as cell phone number or email.                                                     
+80      Warning: There is at least one other person with the name "Barrett, Joe" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+100     Warning: There is at least one other person with the name "Beckley, Kevin" who also has no unique   
+        identifiers such as cell phone number or email.                                                     
+139     Warning: There is at least one other person with the name "Branson, Dawn" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+190     Warning: There is at least one other person with the name "Casillas, Cristina" who also has no      
+        unique identifiers such as cell phone number or email.                                              
+202     Warning: There is at least one other person with the name "Chittum, Bryan" who also has no unique   
+        identifiers such as cell phone number or email.                                                     
+221     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+224     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+225     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+316     Warning: There is at least one other person with the name "Duplex, FAA" who also has no unique      
+        identifiers such as cell phone number or email.                                                     
+331     Warning: There is at least one other person with the name "Esparza, Jonathan" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+361     Warning: There is at least one other person with the name "Frascella, Lawrence" who also has no     
+        unique identifiers such as cell phone number or email.                                              
+447     Warning: There is at least one other person with the name "Hall, Kellie" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+451     Warning: There is at least one other person with the name "Hall, Kellie" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+566     Warning: There is at least one other person with the name "Johnson, Steven" who also has no unique  
+        identifiers such as cell phone number or email.                                                     
+620     Warning: There is at least one other person with the name "Ledoux, Josh" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+632     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+634     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+658     Warning: There is at least one other person with the name "Lucas, Greg" who also has no unique      
+        identifiers such as cell phone number or email.                                                     
+755     Warning: There is at least one other person with the name "Morrison, Shaun" who also has no unique  
+        identifiers such as cell phone number or email.                                                     
+757     Warning: There is at least one other person with the name "Morrison, Shaun" who also has no unique  
+        identifiers such as cell phone number or email.                                                     
+906     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+908     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+1054    Warning: There is at least one other person with the name "Travelstead, Marcia" who also has no     
+        unique identifiers such as cell phone number or email.                                              
+1101    Warning: There is at least one other person with the name "Weder, Tyler" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+
+
