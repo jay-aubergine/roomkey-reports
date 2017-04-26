@@ -1,0 +1,65 @@
+Accord RentRoll RoomKey Importer
+Date: 3/20/2017
+Time: 3:41PM IST
+Import File: ./2017-03-20/roomkey.csv
+Guest Export File: ./2017-03-20/guest.csv
+
+Summary
+                                Total       Total                 
+Data Type                       Possible    Imported    Issues    
+------------------------------  ----------  ----------  ----------
+Rentable Types                  30          30          0         
+Transactants                    399         388         22        
+Rentables                       399         253         0         
+Rental Agreements               399         399         0         
+
+DETAILED REPORT
+Input                                                                                                       
+Line    Description                                                                                         
+------  ----------------------------------------------------------------------------------------------------
+27      Warning: There is at least one other person with the name "Anderson, Daniel" who also has no unique 
+        identifiers such as cell phone number or email.                                                     
+50      Warning: There is at least one other person with the name "Aviles, Jonathan" who also has no unique 
+        identifiers such as cell phone number or email.                                                     
+67      Warning: There is at least one other person with the name "Barrett, Joe" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+95      Warning: There is at least one other person with the name "Bolen, Joseph" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+111     Warning: There is at least one other person with the name "Branson, Dawn" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+176     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+177     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+179     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+266     Warning: There is at least one other person with the name "Duplex, FAA" who also has no unique      
+        identifiers such as cell phone number or email.                                                     
+281     Warning: There is at least one other person with the name "Esparza, Jonathan" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+303     Warning: There is at least one other person with the name "Frascella, Lawrence" who also has no     
+        unique identifiers such as cell phone number or email.                                              
+344     Warning: There is at least one other person with the name "Green, Kina" who also has no unique      
+        identifiers such as cell phone number or email.                                                     
+451     Warning: There is at least one other person with the name "Johnson, Steven" who also has no unique  
+        identifiers such as cell phone number or email.                                                     
+491     Warning: There is at least one other person with the name "Ledoux, Josh" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+494     Warning: There is at least one other person with the name "Lee, Roderick" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+503     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+507     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+707     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+711     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+749     Warning: There is at least one other person with the name "Rollins, Nicholas" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+770     Warning: There is at least one other person with the name "Sharp, Robert" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+772     Warning: There is at least one other person with the name "Sharp, Robert" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+
+
