@@ -1,0 +1,71 @@
+Accord RentRoll RoomKey Importer
+Date: 5/2/2017
+Time: 2:23PM IST
+Import File: ./2017-05-02/roomkey.csv
+Guest Export File: ./2017-05-02/guest.csv
+
+Summary
+                                Total       Total                 
+Data Type                       Possible    Imported    Issues    
+------------------------------  ----------  ----------  ----------
+Rentable Types                  31          31          0         
+Transactants                    480         468         25        
+Rentables                       480         292         0         
+Rental Agreements               480         292         0         
+
+DETAILED REPORT
+Input                                                                                                       
+Line    Description                                                                                         
+------  ----------------------------------------------------------------------------------------------------
+100     Warning: There is at least one other person with the name "Best, Tj" who also has no unique         
+        identifiers such as cell phone number or email.                                                     
+102     Warning: There is at least one other person with the name "Best, TJ" who also has no unique         
+        identifiers such as cell phone number or email.                                                     
+104     Warning: There is at least one other person with the name "Best, TJ" who also has no unique         
+        identifiers such as cell phone number or email.                                                     
+213     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+217     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+218     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+251     Warning: There is at least one other person with the name "Creider, Erin" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+312     Warning: There is at least one other person with the name "Duplex, Crossland Heavy" who also has no 
+        unique identifiers such as cell phone number or email.                                              
+331     Warning: There is at least one other person with the name "Esparza, Jonathan" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+503     Warning: There is at least one other person with the name "Johnson, Maryanne" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+536     Warning: There is at least one other person with the name "Klein, Jason" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+538     Warning: There is at least one other person with the name "Klein, Jason" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+577     Warning: There is at least one other person with the name "Lee, Roderick" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+592     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+594     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+729     Warning: There is at least one other person with the name "Ozer, Master Seargeant Arif" who also has
+        no unique identifiers such as cell phone number or email.                                           
+781     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+783     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+787     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+789     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+791     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+812     Warning: There is at least one other person with the name "Ramirez, Rudy" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+896     Warning: There is at least one other person with the name "Shellman, Marcus" who also has no unique 
+        identifiers such as cell phone number or email.                                                     
+911     Warning: There is at least one other person with the name "Smith, Robert" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+1034    Warning: There is at least one other person with the name "Villareal, Richard" who also has no      
+        unique identifiers such as cell phone number or email.                                              
+
+
