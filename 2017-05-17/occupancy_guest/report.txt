@@ -1,0 +1,65 @@
+Accord RentRoll RoomKey Importer
+Date: 5/18/2017
+Time: 2:01PM IST
+Import File: ./2017-05-17/roomkey.csv
+Guest Export File: ./2017-05-17/guest.csv
+
+Summary
+                                Total       Total                 
+Data Type                       Possible    Imported    Issues    
+------------------------------  ----------  ----------  ----------
+Rentable Types                  30          30          0         
+Transactants                    428         419         22        
+Rentables                       428         277         0         
+Rental Agreements               428         277         0         
+
+DETAILED REPORT
+Input                                                                                                       
+Line    Description                                                                                         
+------  ----------------------------------------------------------------------------------------------------
+108     Warning: There is at least one other person with the name "Best, Tj" who also has no unique         
+        identifiers such as cell phone number or email.                                                     
+110     Warning: There is at least one other person with the name "Best, TJ" who also has no unique         
+        identifiers such as cell phone number or email.                                                     
+112     Warning: There is at least one other person with the name "Best, TJ" who also has no unique         
+        identifiers such as cell phone number or email.                                                     
+210     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+212     Warning: There is at least one other person with the name "College  of Construction, OK" who also   
+        has no unique identifiers such as cell phone number or email.                                       
+290     Warning: There is at least one other person with the name "Duplex, Crossland Heavy" who also has no 
+        unique identifiers such as cell phone number or email.                                              
+508     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+510     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+669     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+673     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+675     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+677     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+679     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+681     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+683     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+685     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+687     Warning: There is at least one other person with the name "PROGRAM, ROOMMATE" who also has no unique
+        identifiers such as cell phone number or email.                                                     
+703     Warning: There is at least one other person with the name "Ramirez, Rudy" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+752     Warning: There is at least one other person with the name "Rosales, Victor" who also has no unique  
+        identifiers such as cell phone number or email.                                                     
+788     Warning: There is at least one other person with the name "Shellman, Marcus" who also has no unique 
+        identifiers such as cell phone number or email.                                                     
+798     Warning: There is at least one other person with the name "Smith, Robert" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+904     Warning: There is at least one other person with the name "Villareal, Richard" who also has no      
+        unique identifiers such as cell phone number or email.                                              
+
+
