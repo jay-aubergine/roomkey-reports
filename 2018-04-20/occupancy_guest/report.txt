@@ -1,0 +1,61 @@
+Accord RentRoll RoomKey Importer
+Date: 4/20/2018
+Time: 12:01PM IST
+Import File: ./2018-04-20/roomkey.csv
+Guest Export File: ./2018-04-20/guest.csv
+
+Summary
+                                Total       Total                 
+Data Type                       Possible    Imported    Issues    
+------------------------------  ----------  ----------  ----------
+Rentable Types                  29          29          0         
+Transactants                    364         343         20        
+Rentables                       364         269         0         
+Rental Agreements               364         269         0         
+
+DETAILED REPORT
+Input                                                                                                       
+Line    Description                                                                                         
+------  ----------------------------------------------------------------------------------------------------
+55      Warning: There is at least one other person with the name "Beckley, Kevin" who also has no unique   
+        identifiers such as cell phone number or email.                                                     
+84      Warning: There is at least one other person with the name "Breazeale, Jason" who also has no unique 
+        identifiers such as cell phone number or email.                                                     
+135     Warning: There is at least one other person with the name "Chemminian, Rakhith" who also has no     
+        unique identifiers such as cell phone number or email.                                              
+152     Warning: There is at least one other person with the name "Construction, College" who also has no   
+        unique identifiers such as cell phone number or email.                                              
+197     Warning: There is at least one other person with the name "Duplex, Duplex" who also has no unique   
+        identifiers such as cell phone number or email.                                                     
+344     Warning: There is at least one other person with the name "Hall, Mike" who also has no unique       
+        identifiers such as cell phone number or email.                                                     
+408     Warning: There is at least one other person with the name "Jimenez, Teomar" who also has no unique  
+        identifiers such as cell phone number or email.                                                     
+468     Warning: There is at least one other person with the name "Leung, Paula" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+555     Warning: There is at least one other person with the name "Overbeck, Dianna" who also has no unique 
+        identifiers such as cell phone number or email.                                                     
+604     Warning: There is at least one other person with the name "Rankin, Troy" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+699     Warning: There is at least one other person with the name "Square, Rontell" who also has no unique  
+        identifiers such as cell phone number or email.                                                     
+746     Warning: There is at least one other person with the name "Turner, Tyler" who also has no unique    
+        identifiers such as cell phone number or email.                                                     
+751     Warning: There is at least one other person with the name "Vann, Briatt" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+752     Warning: There is at least one other person with the name "Vann, Briatt" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+754     Warning: There is at least one other person with the name "Vann, Briatt" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+756     Warning: There is at least one other person with the name "Vann, Briatt" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+758     Warning: There is at least one other person with the name "Vann, Briatt" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+760     Warning: There is at least one other person with the name "Vann, Briatt" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+792     Warning: There is at least one other person with the name "Walk, John" who also has no unique       
+        identifiers such as cell phone number or email.                                                     
+796     Warning: There is at least one other person with the name "Walker, John" who also has no unique     
+        identifiers such as cell phone number or email.                                                     
+
+

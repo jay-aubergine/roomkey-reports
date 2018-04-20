@@ -5,8 +5,8 @@ if [ ! -d ${RRBIN} ]; then
     exit 1
 fi
 
-ROOMKEYLOAD="${RRBIN}/importers/roomkey/roomkeyload"
-CSVLOAD="${RRBIN}/rrloadcsv"
+ROOMKEYLOAD="${RRBIN}/importers/roomkey/roomkeyload -noauth"
+CSVLOAD="${RRBIN}/rrloadcsv -noauth"
 BUD=RKEY
 
 # create new database, drop it if already exists
